@@ -1,0 +1,88 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "calculator;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 221796517,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am at calculator page",
+            "match": {
+              "location": "Calc1StepDefinitions.i_am_at_calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7325151,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I pass these values",
+            "match": {
+              "location": "Calc1StepDefinitions.sumTest(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "a",
+                  "b"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "3",
+                  "2"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "8",
+                  "5"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "8",
+                  "5"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@add2num"
+          }
+        ]
+      }
+    ],
+    "name": "Calculator",
+    "description": "As an user\nI want to add two numbers\nSo that to view the result",
+    "id": "calculator",
+    "keyword": "Feature",
+    "uri": "Calc1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@calc1"
+      }
+    ]
+  }
+]

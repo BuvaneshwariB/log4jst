@@ -1,0 +1,20 @@
+<log4j:event logger="welcome to log4j" timestamp="1498721952403" level="FATAL" thread="main">
+<log4j:message><![CDATA[This is the fatal message..]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="welcome to log4j" timestamp="1498721952403" level="INFO" thread="main">
+<log4j:message><![CDATA[This is the info message..]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="welcome to log4j" timestamp="1498721952403" level="WARN" thread="main">
+<log4j:message><![CDATA[This is the warn message..]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="welcome to log4j" timestamp="1498721952403" level="DEBUG" thread="main">
+<log4j:message><![CDATA[This is the debug message..]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="welcome to log4j" timestamp="1498721952403" level="ERROR" thread="main">
+<log4j:message><![CDATA[This is the error message..]]></log4j:message>
+</log4j:event>
+

@@ -1,0 +1,5 @@
+FATAL - This is the fatal message..
+INFO - This is the info message..
+WARN - This is the warn message..
+DEBUG - This is the debug message..
+ERROR - This is the error message..
